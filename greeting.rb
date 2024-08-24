@@ -1,9 +1,9 @@
 def greeting(name)
-  "Hello, #{name}! Welcome to my GitHub profile!"
+  "Hello, #{name}!"
 end
 
 if __FILE__ == $0
-  puts "Enter your name:"
+  puts "Atamol:"
   name = gets.chomp
   puts greeting(name)
 end
